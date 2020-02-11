@@ -20,7 +20,7 @@ export class Child extends React.Component {
           Meine name ist {this.props.name}!
         </h1>
         <p>Wählen Sie den Namen unten aus dem Dropdown-Menü</p>
-        <select id="great-names" onChange={this.handleChange}>
+        <select class="select-css" id="great-names" onChange={this.handleChange}>
           <option value="Hadriana">
             Hadriana
           </option>
